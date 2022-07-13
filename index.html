@@ -10,65 +10,75 @@
 
 <body>
 
-    <header>
+    <header class="header-site">
         <nav>
             <div>
-                <h2><a href="index.html">WebStudio</a></h2>
-                <div>
-                    <a href="/Agencja">Agencja</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="/Kontakt">Kontakt</a> 
-                </div>
+                <h2><a class= "logo-first" href="index.html">Web<span class="logo-second">Studio</span></a></h2>
             </div>
-        </nav>
-        <div>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+48111111111">+ 48 111 111 111</a>
-        </div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+                <nav>
+                    <a class= "links" href="/Agencja">Agencja</a>
+                    <a class= "links" href="portfolio.html">Portfolio</a>
+                    <a class= "links" href="/Kontakt">Kontakt</a> 
+                </nav>
+        <ul class="main-contacts">
+           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+           <li><a href="tel:+48111111111">+ 48 111 111 111</a></li>
+        </ul>
     </header>
 
     <main>
-        <div id="nasze_atuty">
-            <ul>
-                <li>
-                    <div>
-                        <h3> Lorem, ipsum.</h3>
-                        <pre>
+        <section class="first-main-page">
+        <h1 class="first-main-page-caption">
+            EFEKTYWNE ROZWIAZANIA<br />DLA WASZEGO BIZNESU
+        </h1>
+        <button type="button" class="first-main-page-button">
+            Zamów usługę
+        </button>
+        </section>
+
+        <section class="second-main-page">
+                <ul class="second-main-page-list">
+                    <li>
+                    <h3> Lorem, ipsum.</h3>
+                        <p>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed 
                         non sodales dui. Interdum et malesuada
-                        </pre>
-                    </div>
-                </li>
+                        </p>
+                    </li>
 
                 <li>
-                    <div>
-                        <h3> Lorem, ipsum.</h3>
-                        <pre>
+                    <h3> Lorem, ipsum.</h3>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed
                         non sodales dui. Interdum et malesuada
-                        </pre>
-                    </div>
-                    </li>
+                    </p>
+                </li>
                 
                     <li>
-                    <div>
-                        <h3> Lorem, ipsum.</h3>
-                        <pre>
+                    <h3> Lorem, ipsum.</h3>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit. Nam vel arcu sem. Sed
                         non sodales dui. Interdum et malesuada
-                        </pre>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div id="czym_sie_zajmujemy">
-            <div>
-                <h3>Czym się zajmujemy</h3>
+                    </p>
+                    </li>
+                    
+                    <li>
+                    <h3> Lorem, ipsum. </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Nam vel arcu sem. Sed
+                        non sodales dui. Interdum et malesuada
+                    </p>
+                    </li>
+                 </ul>
+        </section>
+
+
+        <section class="third-main-page">
+                <h2 class="third-main-page-caption">Czym się zajmujemy</h2>
                 <ul>
                      <li>
                         <img
@@ -91,66 +101,72 @@
                         width="370"
                         height="294">
                     </li>
-            
-                </ul>
-            </div>
-        </div>
+                    </ul>
+        </section>
 
-        <div id="nasz_zespół">
-            <h3> Nasz zespół </h3>
-            <section>
-                <ul>
-                    <li>
-                        <img 
+
+        <section class="team">
+            <h2 class="team-caption"> Nasz zespół </h2>
+            <ul>
+                <li>
+                    <figure class="team-worker">
+                    <img 
                         src="Images/ProduktDesigner.jpg"
                         alt="John1"
                         width="270"
                         height="368">
-                    <h1>John Doe</h1>
-                    <p>Product Designer</p>
-                    </li>
+                        <figcaption>
+                            John Doe <br /><span>Product Designer</span>
+                        </figcaption>
+                    </figure>
+                </li>
                     <li>
+                        <figure class="team-worker">
                         <img
                         src="Images/FrontEnd.jpg"
                         alt="John2"
                         width="270"
                         height="368">
-                    <h1>John Doe</h1>
-                    <p>Front End Developer</p>
+                    <figcaption>
+                        John Doe <br /><span>Frontend Developer</span>
+                    </figcaption>
                     </li>
                     <li>
+                        <figure class="team-worker">
                         <img
                         src="Images/marketing.jpg"
                         alt="John3"
                         width="270"
                         height="368">
-                        <h1>John Doe</h1>
-                        <p>Marketing</p>
+                        <figcaption>John Doe<br /><span>Marketing</span></figcaption>
+                        </figure>
                     </li>
+
                     <li>
+                        <figure class="team-worker">
                         <img
                         src="Images/UI.jpg"
                         alt="UI"
                         width="270"
                         height="368">
-                        <h1> John Doe</h1>
-                        <p>UI Designer</p>
+                        <figcaption>John Doe<br /><span>UI Designer</span></figcaption>
+                        </figure>
                     </li>
                 </ul>
             </section>
-            </div>
         </main>
 
-        <footer>
-
-            <h2><a href="index.html">WebStudio</a></h2>
-            <address>
-                m. Warszawa, Aleje Jerozolimskie 21
+        <footer class="footer-logo">
+            <a class= "logo-first" href="index.html"
+            >Web<span class="logo-second-footer">Studio</span></a>
+            
+            <address class="adress-info">
+                m. Warszawa, Aleje Jerozolimskie 21 <br />
+                <a href="mailto:info@example.com" class="adress-link">
+                    info@example.com</a>
+                <a href="tel:+48111111111" class="adress-tel">
+                    +48 111 111 111</a>
             </address>
-            <address>
-                <a href="mailto:info@example.com">info@example.com</a>
-                <a href="tel:+48111111111">+48 111 111 111</a>
-            </address>
-        
         </footer>
+      </body>
     </html>
