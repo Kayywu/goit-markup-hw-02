@@ -45,13 +45,13 @@ body {
     color: var(--accent-color);
 }
 
-.main-contacts a:hover {
+.main-contacts a{
     color: var(--descriptions-color);
     text-decoration: none;
     list-style: none;
-    font-family: "Roboto";
-    font-size: "14px";
-    font-weight: 500;
+}
+.main-contacts:hover {
+    color: var(--accent-color)
 }
 
 
@@ -177,7 +177,12 @@ body {
     letter-spacing: 0.25px;
 }
 
-
+.adress-info p {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
 
 .adress-link,
 .adress-tel {
@@ -189,6 +194,10 @@ body {
     vertical-align: top;
     letter-spacing: 0.25px;
 }
+
+
+
+
 
 .adress-link:hover {
     color: var(--accent-color);
