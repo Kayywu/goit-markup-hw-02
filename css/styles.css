@@ -45,7 +45,7 @@ body {
 }
 
 .links {
-    color: var(--main-color);
+    color: var(--descriptions-color);
     text-decoration: none;
     font-family: "Roboto";
     font-size: 14px;
@@ -56,27 +56,20 @@ body {
     color: var(--accent-color);
 }
 
-.main-nav,
-.main-nav-contact a{
-    color: var(--descriptions-color);
+
+.main-contact,
+.main-nav-contact {
     text-decoration: none;
     list-style-type: none;
     list-style: none;
 }
 
-.main-nav:hover {
+
+.main-contact:hover {
     color: var(--accent-color)
 }
 
-
-.main-nav li{
-    list-style-type: none;
-}
-.main-nav-contact li{
-    list-style-type: none;
-}
-
-
+ 
 
 .first-main-page-button {
     text-align: center;
